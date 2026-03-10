@@ -1,0 +1,18 @@
+<h2>Physics Experiment</h2>
+
+voltage
+<input id="voltage">
+<button onclick="calculate()">Calculate </button>
+
+<p id="output"></p>
+<script>
+    function calculate(){
+        let voltage =
+        document.getElementById("voltage").value;
+        let resistance = 10; 
+
+        let current = voltage / resistance;
+        document.getElementById("output").innerHTML = "Current= " + current + "Amps";
+        
+    }
+</script>

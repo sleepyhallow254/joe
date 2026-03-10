@@ -7,5 +7,11 @@ function openBiology(){
 }
 
 function openPhysics(){
-    alert("Welcomr to Physics lab)
+    alert("Welcome to Physics lab)
+}
+
+let score = 0
+function addscore(){
+    score = score + 10
+    alert ( "score: " + score)
 }
